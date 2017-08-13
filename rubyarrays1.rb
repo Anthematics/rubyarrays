@@ -9,8 +9,7 @@ favorite_colourssy = [:navyblue, :black, :forestgreen]
 
 
 # Create a hash for each item below that contains the given information:
-#
-# three words and their definitions
+#three words and their definitions
 # your favourite movie names and their year of creation
 # three cities of the world and their population
 # the names of your siblings/cousins/friends and their ages
@@ -36,7 +35,7 @@ cities  = {
 
 favorite_movies = {
 	:donniedarko => "Jan 19,2001",
-	:pulpfiction =>"Oct 14,1994",
+	:pulpfiction =>"Oct 14,1994# puts"got to the bottom"",
 	:memento => "September 5, 2000",
 }
 
@@ -125,7 +124,7 @@ friendsandfamily = {
 # 	:Canada =>  "North America, Inland",
 # 	:Taiwan => "Asia, Island",
 # 	:Australia => "Australia,Island",
-# ]
+# ]print
 #
 # puts"got to the bottom"
 
@@ -148,10 +147,23 @@ friendsandfamily = {
 skateboard = "I will not skateboard in the halls"
 	print"#{skateboard}"*20
 
+count2=[]
+count1=0
+count1.each.do |amount|
+	if amount <50 << count2
+end
 
+
+# count=0
+# coin_flip.each do |amount|
+# 	if amount == 'heads'
+# 		count = count +1
+# 	end
+# end
+# puts "#{count}"
 #
-countingtime ==(1..50)
-print [countingtime.each]
+
+
 
 # =======================+++Exercise 7========================================================
 # You want to add up your expenses for the year. Create an array of numbers (integers or floats)
